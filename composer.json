@@ -12,7 +12,7 @@
     "illuminate/container": "^6.0||^7.0||^8.0||^9.0",
     "illuminate/support": "^6.0||^7.0||^8.0||^9.0",
     "google/apiclient": "^2.10",
-    "pulkitjalan/google-apiclient": "^4.1||^5.0"
+    "pulkitjalan/google-apiclient": "dev-l9-compatibility"
   },
   "require-dev": {
     "phpunit/phpunit": "^9.0",
@@ -29,6 +29,12 @@
       "Revolution\\Google\\Sheets\\Tests\\": "tests/"
     }
   },
+  "repositories":[
+    {
+        "type": "vcs",
+        "url": "https://github.com/laravel-shift/google-apiclient.git"
+    }
+  ],
   "authors": [
     {
       "name": "kawax",
